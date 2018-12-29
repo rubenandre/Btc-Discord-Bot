@@ -20,7 +20,7 @@ bot.on("message", mensagem => {
         			message.channel.send("O preço do  btc é " + value + " $ \nDesceu (ultimo dia): " + perc + "% :sob:");
        			} else {
        				 message.channel.send("O preço do  btc é " + value + " $ \nManteve (ultimo dia): " + perc + "% :rolling_eyes:");
-       			}
+       			} 
 			});
   		});
 	}
